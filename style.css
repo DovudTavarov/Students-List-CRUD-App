@@ -1,0 +1,40 @@
+.height-100vh {
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+}
+.btn-cont {
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.prev-btn {
+  background-color: white;
+  border-radius: 10px;
+  border: solid 1px #0275d8;
+  width: 100px;
+  color: #0275d8;
+  transition-duration: 0.5s;
+}
+.next-btn {
+  background-color: white;
+  border-radius: 10px;
+  border: solid 1px #0275d8;
+  width: 100px;
+  color: #0275d8;
+  transition-duration: 0.5s;
+}
+.prev-btn:hover {
+  color: white;
+  background-color: #0275d8;
+}
+.next-btn:hover {
+  color: white;
+  background-color: #0275d8;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
