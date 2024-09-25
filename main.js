@@ -69,7 +69,7 @@ function createStudents(students) {
     });
     prevBtn.disabled = currentPage === 1;
     nextBtn.disabled = endIndex >= students.length;
-    totalPage = Math.ceil(students.length / 6);
+    totalPage = Math.ceil(students.length / studentsPerPage);
     pageCount.innerHTML = `Page: ${currentPage} / ${totalPage}`;
   } else {
     tableBody.innerHTML = `<tr>
